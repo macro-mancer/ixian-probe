@@ -33,7 +33,7 @@ def test_basic_block_with_prevs(a_bb):
 
 
 def test_basic_block_with_nexts(a_bb):
-    """A BasicBlock is abnle to tell whether it has any BB that 
+    """A BasicBlock is able to tell whether it has any BB that 
     come after it in the CFG (i.e., outcoming edges) 
     as well as how many there are
     """
